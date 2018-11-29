@@ -1,0 +1,8 @@
+<h1> ADD A BRILLIANT COCKTAIL <i class="fas fa-cocktail"></i></h1>
+
+<%= simple_form_for @cocktail do |c| %>
+  <%= c.input :name %>
+  <%= c.button :submit %>
+<% end %>
+
+<h3><%= link_to "Back to Cocktails", cocktails_path %></h3>
